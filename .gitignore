@@ -1,0 +1,13 @@
+
+# Visual Studio
+.vs/
+[Bb]in/
+[Oo]bj/
+
+# User files
+*.user
+*.suo
+
+# Temporary files
+*.log
+*.tmp
