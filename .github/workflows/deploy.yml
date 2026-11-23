@@ -25,7 +25,7 @@ jobs:
 
       # 3. Build và Publish project
       - name: Publish ASP.NET
-        run: dotnet publish aspNet/aspNet.csproj -c Release -r win-x64 --self-contained true -o ./publish
+        run: dotnet publish aspNet/aspNet.csproj -c Release -o ./publish --self-contained false
 
       # 4. Deploy lên Somee bằng FTP
       - name: Deploy to Somee
